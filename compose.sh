@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo docker-compose -f wordpress/docker-compose.yaml up -d
+sudo docker-compose -f /home/ec2-user/wordpress/docker-compose.yaml up --bulid -d
